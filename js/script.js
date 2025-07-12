@@ -1,7 +1,7 @@
 //declaración de array para almacenar pacientes
 const pacientes = [];
 
-//declaración de la función para registrar el paciente
+//creación de la función para registrar el paciente
 function registrarPacientes() {
   let nombre = prompt("Ingrese el nombre del paciente");
   let edad = prompt("Ingrese la edad del paciente");
@@ -23,7 +23,7 @@ function registrarPacientes() {
   }
 }
 
-//declaración de la función para mostrar pacientes
+//creación de la función para mostrar pacientes
 function mostrarPacientes() {
   if (pacientes.length === 0) {
     console.log("No hay pacientes registrados");
@@ -40,7 +40,7 @@ function mostrarPacientes() {
   }
 }
 
-//declaración de la función para buscar un paciente
+//creación de la función para buscar un paciente
 function buscarPaciente() {
   let nombreBuscado = prompt("Ingrese el nombre del paciente a buscar:");
   let pacienteEncontrado = null;
@@ -61,7 +61,7 @@ function buscarPaciente() {
   }
 }
 
-//declaración de la función para menú principal
+//creación de la función para menú principal
 function menu() {
   let opcion;
 
